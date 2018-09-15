@@ -1,0 +1,232 @@
+@media screen and (min-width: 500px) {
+
+    .name {
+        font-size: 1.6em;
+    }
+
+
+    .job {
+        font-size: 0.8em;
+    }
+
+
+    .my_work_header {
+        font-size: 1.4em;
+    }
+
+
+    .project1 {
+        width: 50%;
+        order: 1;
+    }
+
+
+    .project2 {
+        width: 50%;
+        order: 1;
+    }
+
+
+    .project3 {
+        width: 50%;
+        order: 2;
+    }
+
+
+    .project4 {
+        width: 50%;
+        order: 3;
+    }
+
+    .project5 {
+        width: 50%;
+        order: 3;
+    }
+
+
+    .project6 {
+        width: 50%;
+        order: 5;
+    }
+
+
+    .project7 {
+        width: 50%;
+        order: 5;
+    }
+
+
+    .project8 {
+        width: 50%;
+        order: 4;
+    }
+
+    .project9 {
+        width: 50%;
+        order: 4;
+    }
+
+
+    .project10 {
+        width: 50%;
+        order: 2;
+    }
+
+    .project_image {
+        height: 80%;
+        width: 80%;
+    }
+
+
+    .project_title {
+        font-size: 1em;
+    }
+
+
+    .linkedIn_logo {
+        height: 20px;
+    }
+
+}
+
+/* ------------------------------------- */
+
+@media screen and (min-width: 950px) {
+
+    .name {
+        font-size: 2em;
+    }
+
+
+    .job {
+        font-size: 1em;
+    }
+
+
+    .my_work_header {
+        font-size: 1.7em;
+    }
+
+
+    .project1 {
+        width: 100%;
+        order: 1;
+    }
+
+
+    .project2 {
+        width: 33.333333%;
+        order: 2;
+    }
+
+
+    .project3 {
+        width: 33.333333%;
+        order: 2;
+    }
+
+
+    .project4 {
+        width: 33.333333%;
+        order: 3;
+    }
+
+    .project5 {
+        width: 33.333333%;
+        order: 3;
+    }
+
+
+    .project6 {
+        width: 33.333333%;
+        order: 3;
+    }
+
+
+    .project7 {
+        width: 33.333333%;
+        order: 4;
+    }
+
+
+    .project8 {
+        width: 33.333333%;
+        order: 4;
+    }
+
+    .project9 {
+        width: 33.333333%;
+        order: 4;
+    }
+
+
+    .project10 {
+        width: 33.333333%;
+        order: 2;
+    }
+
+
+    .card_img,
+    .pixel_img,
+    .portfolio_img {
+        height: 95%;
+        width: 95%;
+    }
+
+
+    .mockup_img {
+        height: 30%;
+        width: 30%;
+    }
+
+
+    .project_title {
+        font-size: 1.2em;
+    }
+
+
+    .linkedIn_logo {
+        height: 30px;
+    }
+
+}
+
+/* -------------------------------------- */
+
+@media screen and (min-width: 1300px) {
+
+    .body_wrapper,
+    .header_box,
+    .main_box,
+    .footer_box {
+        width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .name {
+        font-size: 2.4em;
+    }
+
+
+    .job {
+        font-size: 1.4em;
+    }
+
+
+    .my_work_header {
+        font-size: 2em;
+    }
+
+    
+    .project_title {
+        font-size: 1.5em;
+    }
+    
+
+    .linkedIn_logo {
+        height: 40px;
+    }
+    
+}

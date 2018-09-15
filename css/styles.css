@@ -1,0 +1,181 @@
+.body_wrapper,
+.header_box,
+.my_work_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* Main containers that make up the page. */
+.body_wrapper {
+    font-family: Open Sans, sans-serif;
+    background-color: rgba(0, 128, 128, 0.3);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.header_box {
+    width: 100%;
+    max-height: 90px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-content: center;
+    border-bottom: 2px groove #699;
+}
+
+
+.main_box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.footer_box {
+    width: 100%;
+    border-top: 2px groove #699;
+}
+
+
+/* Page header. */
+.header_img {
+    width: 20%;
+    height: 100%;
+}
+
+
+.header_text {
+    width: 80%;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+
+.logo {
+    height: 35px;
+}
+
+
+.name {
+    font-size: 1.4em;
+}
+
+
+.name,
+.job {
+    margin: 0;
+    font-weight: 100;
+    text-align: right;
+    text-shadow: 2px 2px 2px #c69;
+}
+
+
+/* Central image of the page. */
+.main_img_box {
+    width: 100%;
+    height: 40%;
+    padding: 5px 0;
+}
+
+
+.code_image {
+    max-width: 100%;
+    min-width: 100%;
+  /*   height: 100%; */
+}
+
+
+/* Project's container. */
+.my_work_container {
+    width: 100%;
+    height: 60%;
+}
+
+
+/* Project's header. */
+.my_work_header {
+    width: 100%;
+    height: 10%;
+    color: #79A;
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+.header_title {
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+
+
+/* Project's containers. */
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6,
+.project7,
+.project8,
+.project9,
+.project10 {
+    margin: 5px 0;
+    width: 100%;
+    height: 22.5%;
+    text-align: center;
+}
+
+
+/* Projects titles, images and links. */
+.project_link {
+    text-decoration: none;
+}
+
+
+.project_image {
+    height: 70%;
+    width: 70%;
+    border: 2px ridge #A88AD9;
+    border-radius: 10px 20px;
+    box-shadow: 2px 2px 0.5px rgba(204, 102, 153, 0.6);
+}
+
+
+.project_image:hover {
+    box-shadow: 2px 2px 8px #000;
+}
+
+
+.project_title {
+    height: 25%;
+    margin: 0;
+    color: #344;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 200;
+}
+
+
+.project_title:hover {
+    text-decoration: underline;
+    text-decoration-color: #c69;
+    text-shadow: 2px 2px 8px #000;
+    color: #c69;
+}
+
+
+/* Footer contents. */
+.linkedIn_logo {
+    float: right;
+}
